@@ -13,8 +13,8 @@ fun main() {
     var count = 0
     str.forEach { if (!str.substringAfter(it).contains(it)) count++ }
 
-    for (el in str) {
-        if (!str.substringAfter(el).contains(el)) count++
-    }
     println(count)
 }
+//    for (el in str) {
+//        if (!str.substringAfter(el).contains(el)) count++
+//    }
