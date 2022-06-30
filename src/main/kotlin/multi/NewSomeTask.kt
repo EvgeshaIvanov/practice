@@ -1,2 +1,5 @@
 package multi
 
+fun main() {
+
+}
