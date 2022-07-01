@@ -43,3 +43,13 @@ fun totalCount(water: Int, milk: Int, beans: Int): Int {
 fun validate(water: Int, milk: Int, beans: Int): Boolean {
     return water >= 200 && milk >= 50 && beans >= 15
 }
+
+//class CoffeeFactory {
+//    fun create(water: Int, milk: Int, beans: Int): Int {
+//        return minOf(water / 200, milk / 50, beans / 15)
+//    }
+//    val coffeeFactory = CoffeeFactory()
+//
+//    val cup = coffeeFactory.create(200, 50, 15)
+//    println(cup)
+//}
