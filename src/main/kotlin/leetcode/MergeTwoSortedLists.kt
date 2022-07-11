@@ -16,5 +16,5 @@ fun findMaxConsecutiveOnes(nums: IntArray): Int {
             max = max(max, counter)
         } else counter = 0
     }
-    return (counter)
+    return (max)
 }
